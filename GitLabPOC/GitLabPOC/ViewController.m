@@ -19,11 +19,17 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"added");
     [self decorateUI];
+    [self configureInitialParameters];
 }
 
 -(void)decorateUI
 {
     self.view.backgroundColor = [UIColor lightGrayColor];
+}
+
+-(void)configureInitialParameters
+{
+    NSLog(@"test");
 }
 
 - (void)didReceiveMemoryWarning {
